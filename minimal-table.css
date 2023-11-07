@@ -14,10 +14,8 @@ body {
 }
 #navbar {
   height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: end;
   font-size: 16px;
+  padding: 20px 0;
 }
 
 .list {
@@ -30,7 +28,7 @@ body {
 }
 .nav-link {
   text-decoration: none;
-  color: #25274e;
+  color: #ffffff;
   transition: all border-bottom ease-in-out;
 }
 .nav-link:hover {
@@ -38,15 +36,15 @@ body {
   border-bottom: 2px solid #25274e;
 }
 
-#intro {
+#main-product {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   color: #ffffff;
   height: 100vh;
 }
 .side {
-  width: 500px;
+  width: 50vw;
   line-height: 1.2;
 }
 h1 {
@@ -64,22 +62,28 @@ p {
   background-color: #25274e;
   border: none;
   padding: 9px 25px;
-
   color: #ffffff;
   border-radius: 13px;
   font-size: 24px;
+transition: all 0.5s ease;
+}
+#btn:hover{
+  transition: all 0.3s ease;
+  background-color: #7681b0;
+  transform: scale(1.05);
+  color: #ffffff;
 }
 .product {
-  width: 400px;
-  height: 400;
+  width: 50vw;
+  height: 80vh;
 }
-#text-d {
+#description-title {
   text-align: center;
   color: #ffffff;
   margin: auto;
   width: 80%;
   padding: 0px 20px;
-  color: #25274e;
+  color: #25274e; 
 }
 .intro-2 {
   display: flex;
